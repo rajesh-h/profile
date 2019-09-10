@@ -165,7 +165,7 @@
           For detailed Resume please refer this link.<br />
 
           <a href="https://github.com/rajesh-h/profile/detailed" target="_blank"
-            >https://github.com/rajesh-h/profile/detailed</a
+            >https://github.com/rajesh-h/profile/tree/master/detailed</a
           >
         </p>
       </div>
