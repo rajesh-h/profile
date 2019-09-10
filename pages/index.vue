@@ -162,7 +162,7 @@
       </div>
       <div class="white">
         <p class="body-2 black--text pa-2 font-weight-light text-justify">
-          For detailed Resume please refer this link.<br />
+          For detailed Profile please refer this link.<br />
 
           <a href="https://github.com/rajesh-h/profile/detailed" target="_blank"
             >https://github.com/rajesh-h/profile/tree/master/detailed</a
