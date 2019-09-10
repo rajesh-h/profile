@@ -164,7 +164,9 @@
         <p class="body-2 black--text pa-2 font-weight-light text-justify">
           For detailed Profile please refer this link.<br />
 
-          <a href="https://github.com/rajesh-h/profile/detailed" target="_blank"
+          <a
+            href="https://github.com/rajesh-h/profile/tree/master/detailed<"
+            target="_blank"
             >https://github.com/rajesh-h/profile/tree/master/detailed</a
           >
         </p>
