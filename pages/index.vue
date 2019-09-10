@@ -165,7 +165,7 @@
           For detailed Profile please refer this link.<br />
 
           <a
-            href="https://github.com/rajesh-h/profile/tree/master/detailed<"
+            href="https://github.com/rajesh-h/profile/tree/master/detailed"
             target="_blank"
             >https://github.com/rajesh-h/profile/tree/master/detailed</a
           >
