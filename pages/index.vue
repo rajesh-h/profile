@@ -154,22 +154,104 @@
         <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
           EDUCATION
         </p>
-        <div class="white">
-          <p class="body-2 black--text pa-2 font-weight-light text-justify">
+        <div class="white pa-2">
+          <p
+            class="body-2 black--text pa-2 font-weight-light text-justify mb-0"
+          >
             {{ resume.education[0].degree }}
           </p>
         </div>
       </div>
-      <div class="white">
-        <p class="body-2 black--text pa-2 font-weight-light text-justify">
-          For detailed Profile please refer this link.<br />
 
-          <a
-            href="https://github.com/rajesh-h/profile/tree/master/detailed"
-            target="_blank"
-            >https://github.com/rajesh-h/profile/tree/master/detailed</a
-          >
+      <!-- <div v-if="1 == 2" class="demo">
+        <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
+          DEMO
         </p>
+        <div class="white">
+          <v-row class="pa-2">
+            <v-col
+              v-for="video in resume.videoDemo"
+              :key="video.name"
+              class="d-flex child-flex"
+              cols="4"
+            >
+              <v-card flat tile class="d-flex">
+                <v-img
+                  :src="video.demoImage"
+                  :lazy-src="video.demoImage"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                  border="5"
+                >
+                  <v-card-title
+                    class="blue--text align-end text-center fill-height font-weight-black"
+                    style="font-size: 14px !important;"
+                    >{{ video.name }}</v-card-title
+                  >
+           
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
+              </v-card>
+            </v-col>
+          </v-row>
+        </div>
+      </div> -->
+      <div class="furtherLinks">
+        <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
+          FURTHER LINKS / DEMOS/ SOURCE CODES
+        </p>
+        <div class="white pa-2 mb-3">
+          <p class="body-2 black--text pa-2 font-weight-light text-justify">
+            For detailed Profile please refer this link.<br />
+
+            <a
+              href="https://github.com/rajesh-h/profile/tree/master/detailed"
+              target="_blank"
+              >https://github.com/rajesh-h/profile/tree/master/detailed</a
+            >
+          </p>
+          <p class="pl-2 body-2 black--text ">Demo/Source</p>
+          <p
+            v-for="link in resume.gitHubLinks"
+            :key="link.name"
+            class="body-2 black--text pl-10  font-weight-light text-justify mb-0"
+          >
+            <a :href="link.link" target="_blank">{{ link.name }}</a>
+            <span class="caption black--text">--{{ link.type }}</span>
+          </p>
+        </div>
+      </div>
+      <div class="lookingForward">
+        <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
+          LOOKING FORWARD
+        </p>
+        <div class="white pa-2 mb-1">
+          <p class="black--text pa-2 body-2 font-weight-regular ">
+            {{ resume.lookingForward.text }}
+          </p>
+
+          <v-chip
+            v-for="(prof, index) in resume.lookingForward.profiles"
+            :key="index"
+            class="overlay font-weight-regular mr-1 mb-1"
+            style="height:22px; border-radius:11px"
+            color="grey lighten-2"
+            text-color="black"
+          >
+            {{ prof }}
+          </v-chip>
+        </div>
       </div>
     </div>
   </v-container>
@@ -183,6 +265,17 @@ export default {
     const resume = await getResume()
 
     return { resume }
+  },
+  head: {
+    title: 'Rajesh Profile',
+    meta: [
+      {
+        hid: 'resume',
+        name: 'resume',
+        content: 'Rajesh Resume'
+      }
+    ]
+    // ...
   }
 }
 </script>

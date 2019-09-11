@@ -80,7 +80,55 @@
 	],
 	"education": [
 		{
-			"degree": "2009 - Master of Business Administrator (Finance)"
+			"degree": "2009 - Master of Business Administrator"
+		}
+	],
+	"videoDemo": [
+		{
+			"name": "ORCHESTRATOR",
+			"demoLink" : "https://github.com/rajesh-h/orchestrator/blob/master/demo.gif",
+			"demoImage": "https://raw.githubusercontent.com/rajesh-h/orchestrator/master/demo.jpg"
+		},
+		{
+			"name": "IDVT",
+			"demoLink" : "https://github.com/rajesh-h/idvt/blob/master/demo.gif",
+			"demoImage": "https://raw.githubusercontent.com/rajesh-h/idvt/master/demo.jpg"
+		},
+		{
+			"name": "TDM",
+			"demoLink" : "https://github.com/rajesh-h/TDM/blob/master/demo.gif",
+			"demoImage": "https://raw.githubusercontent.com/rajesh-h/TDM/master/demo.jpg"
+		}
+
+	],
+	"lookingForward" : { "text": "Interested to Explore Opportunities in any of the below Areas:",
+		"profiles" : ["Process Automation", "Data Science", "Cloud Computing", "Devops", "Big Data", "Analytics", "Data Warehouse" ]
+		 },
+	"gitHubLinks": [
+		{
+			"name": "Automation Orchestrator",
+			"link" : "https://raw.githubusercontent.com/rajesh-h/orchestrator/master/demo.gif",
+			"type" : "DEMO"		
+		},
+		{
+			"name": "Integrated Data Validation Tool",
+			"link" : "https://github.com/rajesh-h/idvt/blob/master/demo.gif",
+			"type" : "DEMO"
+		},
+		{
+			"name": "Test Data management Application",
+			"link" : "https://raw.githubusercontent.com/rajesh-h/TDM/master/demo.gif",
+			"type" : "DEMO"
+		},
+		{
+			"name": "Fixed Width to Delimited",
+			"link" : "https://github.com/rajesh-h/FixedWidthToDelimited",
+			"type" : "SOURCE"
+		},
+		{
+			"name": "Django Windows Scheduler",
+			"link" : "https://github.com/rajesh-h/Django_Windows_Scheduler",
+			"type" : "SOURCE"
 		}
 	],
 	"skills": [
