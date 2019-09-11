@@ -254,7 +254,7 @@
 			"color":"green"
 		},
 		{
-			"name": "Excel VBA/MAcros",
+			"name": "Excel VBA/Macros",
 			"color":"green"
 		},
 		{
@@ -366,6 +366,10 @@
 			"color":"orange"
 		},
 		{
+			"name": "Pandas",
+			"color":"orange"
+		},
+		{
 			"name": "Oracle",
 			"color":"grey"
 		},
@@ -376,11 +380,7 @@
 		{
 			"name": "Graph QL",
 			"color":"grey"
-		},
-		{
-			"name": "Pandas",
-			"color":"grey"
-		},
+		},		
 		{
 			"name": "Talend",
 			"color":"grey"
