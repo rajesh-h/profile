@@ -93,6 +93,6 @@ sw.*
 #git add .
 #git commit -m "Initial2"
 #git push origin master
-#yarn generate
+#yarn generate:gh-pages
 #git add -f dist && git commit -m "Initial dist subtree commit"
 #git subtree push --prefix dist origin gh-pages

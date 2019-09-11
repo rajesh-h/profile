@@ -253,6 +253,14 @@
           </v-chip>
         </div>
       </div>
+      <div class="d-none d-print-block" style="position:absolute; bottom: 0;">
+        <p class="black--text text--right caption font-weight-thin ">
+          This Profile can be accessed online at
+          <a href="https://rajesh-h.github.io/profile/"
+            >https://rajesh-h.github.io/profile/</a
+          >
+        </p>
+      </div>
     </div>
   </v-container>
 </template>
