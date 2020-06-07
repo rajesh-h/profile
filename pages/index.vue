@@ -18,7 +18,7 @@
           {{ resume.contact.email }}
         </p>
         <p class="pl-2 grey--text caption">
-          <v-icon class="grey--text">mdi-github-circle</v-icon>
+          <v-icon class="grey--text">mdi-github</v-icon>
           <a
             :href="'https://github.com/' + resume.contact.github"
             target="_blank"
