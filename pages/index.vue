@@ -46,6 +46,18 @@
           ></progress>
         </div>
       </div>
+      <div class="certfications">
+        <p class="grey--text text-uppercase subtitle-2 font-weight-black pt-3">
+          CERTIFICATIONS
+        </p>
+        <div
+          v-for="(certificate, index) in resume.certifications"
+          :key="index"
+          class="pl-2"
+        >
+          <p class="grey--text body-2 mb-2">&#9679; {{ certificate }}</p>
+        </div>
+      </div>
 
       <div class="accomplishments">
         <p class="grey--text text-uppercase subtitle-2 font-weight-black pt-3">
@@ -188,7 +200,7 @@
                     style="font-size: 14px !important;"
                     >{{ video.name }}</v-card-title
                   >
-           
+
                   <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
@@ -207,31 +219,6 @@
           </v-row>
         </div>
       </div> -->
-      <div class="furtherLinks">
-        <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
-          FURTHER LINKS / DEMOS/ SOURCE CODES
-        </p>
-        <div class="white pa-2 mb-3">
-          <p class="body-2 black--text pa-2 font-weight-light text-justify">
-            For detailed Profile please refer this link.<br />
-
-            <a
-              href="https://github.com/rajesh-h/profile/tree/master/detailed"
-              target="_blank"
-              >https://github.com/rajesh-h/profile/tree/master/detailed</a
-            >
-          </p>
-          <p class="pl-2 body-2 black--text ">Demo/Source</p>
-          <p
-            v-for="link in resume.gitHubLinks"
-            :key="link.name"
-            class="body-2 black--text pl-10  font-weight-light text-justify mb-0"
-          >
-            <a :href="link.link" target="_blank">{{ link.name }}</a>
-            <span class="caption black--text">--{{ link.type }}</span>
-          </p>
-        </div>
-      </div>
       <div class="lookingForward">
         <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
           LOOKING FORWARD
@@ -253,6 +240,32 @@
           </v-chip>
         </div>
       </div>
+      <div class="furtherLinks">
+        <p class="black--text text-uppercase subtitle-2 font-weight-black pt-3">
+          FURTHER LINKS / DEMOS/ SOURCE CODES
+        </p>
+        <div class="white pa-2 mb-3">
+          <p class="body-2 black--text pa-2 font-weight-light text-justify">
+            For detailed Profile please refer this link.<br />
+
+            <a
+              href="https://github.com/rajesh-h/profile/raw/master/detailed/Rajesh_Resume.pdf"
+              target="_blank"
+              >https://github.com/rajesh-h/profile/raw/master/detailed/Rajesh_Resume.pdf</a
+            >
+          </p>
+          <p class="pl-2 body-2 black--text ">Demo/Source</p>
+          <p
+            v-for="link in resume.gitHubLinks"
+            :key="link.name"
+            class="body-2 black--text pl-10  font-weight-light text-justify mb-0"
+          >
+            <a :href="link.link" target="_blank">{{ link.name }}</a>
+            <span class="caption black--text">--{{ link.type }}</span>
+          </p>
+        </div>
+      </div>
+
       <div class="d-none d-print-block" style="position:absolute; bottom: 0;">
         <p class="black--text text--right caption font-weight-thin ">
           This Profile can be accessed online at

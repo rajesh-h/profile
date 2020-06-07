@@ -10,21 +10,22 @@
 			"Ability to understand critical situation and take right decision."
 		]	,
 	"position": "Tech Lead",
-	"objective": "Leverage my 10+ years of experience in the field of Data warehouse, Automation, Testing and Web technologies. Utilize the various skillsets to help me and the organization grow mutually.",
+	"objective": "Leverage my 10+ years of experience in the field of Data warehouse, Automation, Development, Testing and Web technologies. Utilize the various skillsets to help me and the organization grow mutually.",
 	"accomplishments": [
+      "Scored 100% - AWS Certified Developer Associate",
 			"Developed TDM Application",
 			"Developed Automation Orchestration Tool",
-			"Participated in Hackathon conducted by Standard Bank (Top 15)",
 			"Won Code Master Award in the CodeStorm competition held internally at Wipro Technologies",
-			"Developed a Excel tool named IDVT (Integrated Data Validation Tool).",
-			"Completed \"Architecting on AWS\".",
-			"Completed \"Interactive Programming in Python\" on Coursera.",
-			"Completed \"Nuxt - VueJS on Steroids\" on Udemy."
-		]
-	,
+			"Developed a Excel tool named IDVT (Integrated Data Validation Tool)."		]
+  ,
+  "certifications": [
+    "AWS Certified Developer Associate",
+    "AWS Certified Solution Architect Associate",
+    "Microsoft Certified: Azure Fundamentals AZ 900"
+  ]	,
 	"experience": [
 		{
-			"company": "Wipro Technologies",			
+			"company": "Wipro Technologies",
 			"domain": "Banking and Finance",
 			"client": "Standard Bank of South Africa",
 			"position": "TECH LEAD",
@@ -37,7 +38,7 @@
 			]
 		},
 		{
-			"company": "Wipro Technologies",			
+			"company": "Wipro Technologies",
 			"domain": "Banking and Finance",
 			"client": "Standard Bank of South Africa",
 			"position": "TECH LEAD",
@@ -67,7 +68,7 @@
 		},
 		{
 			"company": "Kudos Technologies Pvt Ltd",
-			"client": "States Street Global Advisors",			
+			"client": "States Street Global Advisors",
 			"domain": "Banking and Finance",
 			"position": "Business Analyst",
 			"timeperiod": "July 2009 - March 2012",
@@ -101,14 +102,14 @@
 		}
 
 	],
-	"lookingForward" : { "text": "Interested to Explore Opportunities in any of the below Areas:",
-		"profiles" : ["Process Automation", "Data Science", "Cloud Computing", "Devops", "Big Data", "Analytics", "Data Warehouse" ]
+	"lookingForward" : { "text": "Interested to Take up Opportunities in any of the below Areas:",
+		"profiles" : ["Data Engineer", "Analytics", "Data Warehouse" , "Business/Data/System Analyst", "Technical Lead","Solution Designer/Architect","Process Automation", "Data Science", "Cloud Computing", "Devops", "Big Data"]
 		 },
 	"gitHubLinks": [
 		{
 			"name": "Automation Orchestrator",
 			"link" : "https://raw.githubusercontent.com/rajesh-h/orchestrator/master/demo.gif",
-			"type" : "DEMO"		
+			"type" : "DEMO"
 		},
 		{
 			"name": "Integrated Data Validation Tool",
@@ -151,13 +152,17 @@
 		{
 			"name": "SDLC, STLC",
 			"level": 80
+    },
+    {
+			"name": "DEVELOPMENT",
+			"level": 80
 		},
 		{
 			"name": "TESTING",
 			"level": 90
-		},
-		{
-			"name": "DEVELOPMENT",
+    },
+    {
+			"name": "PROGRAMMING",
 			"level": 80
 		},
 		{
@@ -165,20 +170,16 @@
 			"level": 85
 		},
 		{
-			"name": "PROGRAMMING",
-			"level": 80
-		},
-		{
 			"name": "DEVOPS, AGILE",
 			"level": 75
 		},
 		{
 			"name": "WEB TECHNOLOGIES",
-			"level": 60
+			"level": 75
 		},
 		{
 			"name": "REST API",
-			"level": 65
+			"level": 85
 		},
 		{
 			"name": "FRONT END DEVELOPMENT",
@@ -291,7 +292,15 @@
 		},
 		{
 			"name": "Datastage",
-			"color":"orange"
+			"color":"green"
+    },
+    {
+			"name": "NO SQL",
+			"color":"green"
+		},
+		{
+			"name": "Vue/Nuxt",
+			"color":"green"
 		},
 		{
 			"name": "PowerShell",
@@ -299,14 +308,6 @@
 		},
 		{
 			"name": "CMD",
-			"color":"orange"
-		},
-		{
-			"name": "NO SQL",
-			"color":"orange"
-		},
-		{
-			"name": "Vue/Nuxt",
 			"color":"orange"
 		},
 		{
@@ -380,13 +381,17 @@
 		{
 			"name": "Graph QL",
 			"color":"grey"
-		},		
+		},
 		{
 			"name": "Talend",
 			"color":"grey"
 		},
 		{
 			"name": "Main Frame",
+			"color":"grey"
+    },
+    {
+			"name": "Spark",
 			"color":"grey"
 		}
 	]
