@@ -10,9 +10,10 @@
 			"Ability to understand critical situation and take right decision."
 		]	,
 	"position": "Tech Lead",
-	"objective": "Leverage my 10+ years of experience in the field of Data warehouse, Automation, Development, Testing and Web technologies. Utilize the various skillsets to help me and the organization grow mutually.",
+	"objective": "Leverage my 11+ years of experience in the field of Data warehouse, Automation, Development, Testing and Web technologies. Utilize the various skillsets to help me and the organization grow mutually.",
 	"accomplishments": [
-      "Scored 100% - AWS Certified Developer Associate",
+	  "Scored 100% - AWS Certified Developer Associate",
+	  "Designed Microservices Architecture for Data Warehouse",
 			"Developed TDM Application",
 			"Developed Automation Orchestration Tool",
 			"Won Code Master Award in the CodeStorm competition held internally at Wipro Technologies",
@@ -29,41 +30,24 @@
 			"domain": "Banking and Finance",
 			"client": "Standard Bank of South Africa",
 			"position": "TECH LEAD",
-			"timeperiod": "Since December 2018",
+			"timeperiod": "Since January 2013",
 			"description":  [
-				"Develop and Maintain ETL Jobs using Datastage.",
+				"Design New Data Warehouse with Microservices Architecture",
+				"Design Data flows, work on Functional/Technical/Mapping Specification documents",
+				"Document artifacts on Confluence and provide detailed design where necessary",
+				"Exposure to Python, Docker, Jenkins, DevOps, Unix, TPT etc. Make the overall value chain as robust as possible",
+				"Design, Develop and Maintain ETL Jobs using Datastage.",
+				"Understand Business requirement and write PL/SQL to populate Data Marts",
 				"TWS Jobs Scheduling, Production Support.",
 				"Complex SQL queries and data models using Teradata SQL.",
-				"Working on Establishing CI/CD Pipeline on ETL Space"
-			]
-		},
-		{
-			"company": "Wipro Technologies",
-			"domain": "Banking and Finance",
-			"client": "Standard Bank of South Africa",
-			"position": "TECH LEAD",
-			"timeperiod": "January 2013 - November 2018",
-			"description": [
+				"Establishing CI/CD Pipeline on ETL Space",
 				"Developed Complete TDM(Test Data Management) Tool.",
 				"Developed Automation Orchestrator Tool.",
-				"Analyse, Design, Develop and Test the application.",
 				"Automation consultant and DWH/ETL/Functional Test Lead role.",
 				"Complex SQL Queries, Shell/Python Scripting, Datastage Job Testing.",
 				"Develop Automation Scripts, Design Test Techniques.",
 				"Team work, Knowledge Sharing, Tracking Emerging Technologies.",
-				"Highly Motivated, Influence Team, Achieve Client Expectations.",
-				"Functional Testing of ETL jobs on DWH Space.",
-				"Played a key role in all major projects"
-			],
-			"tools": [
-				{
-					"name": "AUTOMATION",
-					"color": 85
-				},
-				{
-					"name": "DWH (Data Warehouse)",
-					"color": 80
-				}
+				"Highly Motivated, Influence Team, Achieve Client Expectations."
 			]
 		},
 		{
@@ -255,6 +239,10 @@
 			"color":"green"
 		},
 		{
+			"name": "Docker",
+			"color":"green"
+		},
+		{
 			"name": "Excel VBA/Macros",
 			"color":"green"
 		},
@@ -372,6 +360,10 @@
 		},
 		{
 			"name": "Oracle",
+			"color":"grey"
+		},
+		{
+			"name": "Kubernetes",
 			"color":"grey"
 		},
 		{
