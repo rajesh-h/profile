@@ -87,7 +87,7 @@
 
 	],
 	"lookingForward" : { "text": "Interested to Take up Opportunities in any of the below Areas:",
-		"profiles" : ["Data Engineer", "Analytics", "Data Warehouse" , "Business/Data/System Analyst", "Technical Lead","Solution Designer/Architect","Process Automation", "Data Science", "Cloud Computing", "Devops", "Big Data"]
+		"profiles" : ["Data Engineer", "Analytics", "Data Warehouse" , "Data Architect", "Business/Data/System Analyst", "Technical Lead","Solution Designer/Architect","Process Automation", "Data Science", "Cloud Computing", "Devops", "Big Data"]
 		 },
 	"gitHubLinks": [
 		{
